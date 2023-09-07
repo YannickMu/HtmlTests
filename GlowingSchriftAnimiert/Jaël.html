@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>Happy Bithday Jaël Maria</title>
+        <style>@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+            /* Main styles */
+             .text {
+                 fill: none;
+                 stroke-width: 3;
+                 stroke-linejoin: round;
+                 stroke-dasharray: 70 330;
+                 stroke-dashoffset: 0;
+                 -webkit-animation: stroke 6s infinite linear;
+                 animation: stroke 6s infinite linear;
+            }
+             .text:nth-child(5n + 1) {
+                 stroke: #5c5105;
+                 -webkit-animation-delay: -1.2s;
+                 animation-delay: -1.2s;
+            }
+             .text:nth-child(5n + 2) {
+                 stroke: #f503f5;
+                 -webkit-animation-delay: -2.4s;
+                 animation-delay: -2.4s;
+            }
+             .text:nth-child(5n + 3) {
+                 stroke: #27331a;
+                 -webkit-animation-delay: -3.6s;
+                 animation-delay: -3.6s;
+            }
+             .text:nth-child(5n + 4) {
+                 stroke: #f6ff00;
+                 -webkit-animation-delay: -4.8s;
+                 animation-delay: -4.8s;
+            }
+             .text:nth-child(5n + 5) {
+                 stroke: #a00048;
+                 -webkit-animation-delay: -6s;
+                 animation-delay: -6s;
+            }
+             @-webkit-keyframes stroke {
+                 100% {
+                     stroke-dashoffset: -400;
+                }
+            }
+             @keyframes stroke {
+                 100% {
+                     stroke-dashoffset: -400;
+                }
+            }
+            /* Other styles */
+             html, body {
+                 height: 100%;
+            }
+             body {
+                 background: #111;
+                 background-size: 0.2em 100%;
+                 font: 5em Open Sans, Impact;
+                 text-transform: uppercase;
+                 margin: 0;
+            }
+             svg {
+                 position: absolute;
+                 width: 100%;
+                 height: 100%;
+            }</style>
+    </head>
+    <body>
+        <div class="container">
+            <svg viewBox="0 0 1400 600">
+                <!-- Symbol-->
+                <symbol id="happy-text"><text text-anchor="middle" x="50%" y="30%" dy=".45em">Happy</text></symbol><!-- Duplicate symbols-->
+                <use class="text" xlink:href="#happy-text"></use>
+                <use class="text" xlink:href="#happy-text"></use>
+                <use class="text" xlink:href="#happy-text"></use>
+                <use class="text" xlink:href="#happy-text"></use>
+                <use class="text" xlink:href="#happy-text"></use>
+            </svg>
+            <svg viewBox="0 0 1400 600">
+                <!-- Symbol-->
+                <symbol id="Birthday-text"><text text-anchor="middle" x="50%" y="50%" dy=".45em">Birthday</text></symbol><!-- Duplicate symbols-->
+                <use class="text" xlink:href="#Birthday-text"></use>
+                <use class="text" xlink:href="#Birthday-text"></use>
+                <use class="text" xlink:href="#Birthday-text"></use>
+                <use class="text" xlink:href="#Birthday-text"></use>
+                <use class="text" xlink:href="#Birthday-text"></use>
+            </svg>
+            <svg viewBox="0 0 1400 600">
+                <!-- Symbol-->
+                <symbol id="Sophie-text"><text text-anchor="middle" x="50%" y="70%" dy=".45em">Jaël Maria</text></symbol><!-- Duplicate symbols-->
+                <use class="text" xlink:href="#Sophie-text"></use>
+                <use class="text" xlink:href="#Sophie-text"></use>
+                <use class="text" xlink:href="#Sophie-text"></use>
+                <use class="text" xlink:href="#Sophie-text"></use>
+                <use class="text" xlink:href="#Sophie-text"></use>
+            </svg>
+        </div>
+    </body>
+</html>
